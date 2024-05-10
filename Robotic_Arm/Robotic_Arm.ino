@@ -98,11 +98,6 @@ void GP_Input() {
   bool Back = myControllers->miscBack();  // Left Button
   bool Home = myControllers->miscHome();  // Right Button
 
-  //Battery Status
-  // int batt_lvl = myControllers->battery();  //0 ~ 255 (0 == unknown status; 1 == empty; 255 == full)
-
-  // Serial.println("Left-X: " + String(X1) + " Left-Y: " + String(Y1) + " Right-X: " + String(X2) + " Right-Y: " + String(Y2));
-
   // Angle Variables
   int min_angle_4 = static_cast<int>(1.2*angle_3 + 84);
   int max_angle_4 = min_angle_4 + 50;
@@ -193,16 +188,6 @@ void GP_Input() {
     angle_5++;
   }
 
-  // if(LEFT){
-  //   if(current_time - last_time > threshold){
-  //     Serial.println(currentIndex);
-  //     last_time = current_time;
-  //     for (int Play_action=0; Play_action < currentIndex; Play_action++){
-  //       Serial.println(String(Play_action) + " Servo Angles: " + String(servoAngles[Play_action]));
-  //     }
-  //   }
-  // }
-
   angle[0] = angle_1;
   angle[1] = angle_2;
   angle[2] = angle_3;
@@ -213,10 +198,6 @@ void GP_Input() {
     for(unsigned char i=0; i<5;i++){ // 0 -> 255; 4 bytes = 32 ; 2^32 = 60000++
       myservo[i].write(angle[i]);
     }
-    // for(int i=0; i<5;i++){
-    //   Serial.print(angle[i]);
-    //   Serial.print(" ");
-    // }
   }else if(mode == 4){
     myControllers->setColorLED(90,98,180);
     Play(Home);
