@@ -11,7 +11,6 @@
 - _The combined dot matrix will scroll the text that you typed in the Bluetooth Serial Terminal after pressing send command_
 
 <br>
-<br>
 
 ### _2. 4-DOF Robotic Arm_
 - **_Materials Used (Software and Electronic Parts)_**
