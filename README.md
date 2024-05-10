@@ -1,4 +1,4 @@
-# IEEE USM Student Branch 2023/2024
+# Makerthon 2024
 
 ## Innovation Department Project Development
 ### _1. LED Scrolling Text via Serial Bluetooth Terminal_
