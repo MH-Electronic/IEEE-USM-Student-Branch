@@ -81,11 +81,7 @@ void loop() {
 
     Display.displayClear();
 
-   
-    
-     
      Display.displayScroll(word_display, PA_RIGHT, PA_SCROLL_LEFT, 255);
-//    Display.displayScroll(word_display, PA_LEFT, PA_PRINT, 200);
   }
   delay(20);
 }
