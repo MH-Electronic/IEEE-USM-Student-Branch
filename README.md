@@ -1,6 +1,11 @@
 # Makerthon 2024
 
 ## Innovation Department Project Development
+
+# _**Table of Content**_
+- _[LED Scrolling Text via Serial Bluetooth Terminal](#1-led-scrolling-text-via-serial-bluetooth-terminal)_
+- _[4-DOF Robotic Arm](#2-4-dof-robotic-arm)_
+
 ### _1. LED Scrolling Text via Serial Bluetooth Terminal_
 - **_Materials Used (Software and Electronic Parts)_**
     - _MAX7219 Generic Module X 4_
