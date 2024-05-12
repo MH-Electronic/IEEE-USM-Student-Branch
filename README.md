@@ -1,6 +1,4 @@
-# Makerthon 2024
-
-## Innovation Department Project Development
+# Makerthon 2024 (Innovation Department Project Development)
 
 # _**Table of Content**_
 - _[LED Scrolling Text via Serial Bluetooth Terminal](#1-led-scrolling-text-via-serial-bluetooth-terminal)_
